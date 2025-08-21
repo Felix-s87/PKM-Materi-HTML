@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="dropdown">
+            <img src="./image/oia-uia.gif">
+        </div>
+        <ul class="dynamic-txt">
+            <li><h1>Hello World?</h1></li>
+            <li><h1>No, Hello Coding lah! </h1></li>
+        </ul>
+        <p>Belajar HTML & CSS biar keliatan <span class="mark">SIGMA ABIS!</span></p>
+        <div class="arrow">
+            <img src="./image/ARROW.png">
+            <a href="#coding">
+                <p>Kucing Akmal: teken nih tombol!</p>
+            </a>
+            <br>
+            <img src="./image/ARROW.png">
+        </div>
+    </header>
+    
+    <div class="container-grid">
+        <div class="coding" id="coding">
+            <h2>Apa itu Coding? </h2>
+            <p style="white-space: post;">
+                Coding adalah proses menulis instruksi atau perintah yang akan dijalankan oleh komputer. 
+                Melalui coding, kita memberikan serangkaian perintah yang membentuk suatu program atau aplikasi, 
+                sehingga komputer dapat memahami dan melaksanakan tugas sesuai dengan yang kita inginkan. 
+                <br>
+                Coding juga merupakan keterampilan yang memungkinkan seseorang membuat berbagai perangkat lunak, 
+                mulai dari aplikasi, situs web, hingga program komputer.
+            </p>
+        </div>
+
+        <div class="coding-img  ">
+            <img src="./image/54o8441tvwf41.jpg" class="real-img">   
+        </div>
+
+        <div class="html-css-img">
+            <img src="./image/image-PxVArAohN-47923.webp" class="real-img">        
+        </div>
+
+        <div class="html-css">
+            <h2>HTML</h2>
+            <p>
+                HTML, singkatan dari <span class="mark">HyperText Markup Language</span>, adalah bahasa standar yang digunakan untuk membuat dan menampilkan halaman web. HTML bukan bahasa pemrograman, melainkan bahasa markup yang menggunakan tag untuk menandai elemen-elemen pada halaman web, seperti teks, gambar, judul, dan tautan.
+            </p> 
+        </div>
+        
+        <div class="struktur-html">
+            <h2>Struktur Dasar HTML</h2>
+            <ul>
+                Struktur dasar HTML terdiri dari deklarasi seperti:
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;head&gt;</li>
+                <li>&lt;body&gt;</li>
+            </ul>
+            <p>
+                Deklarasi <span class="mark">&lt;!DOCTYPE html&gt;</span> memberitahu browser jenis dokumen yang sedang diproses. 
+                Elemen <span class="mark">&lt;html&gt;</span> adalah elemen akar yang membungkus seluruh halaman web. 
+                Elemen <span class="mark">&lt;head&gt;</span> berisi informasi meta data seperti judul halaman, 
+                dan elemen <span class="mark">&lt;body&gt;</span> berisi konten yang ditampilkan di halaman web.
+            </p>       
+        </div>
+
+        <div class="struktur-code">
+            <p>berikut contoh struktur dasar HTML:</p>
+            <pre class="code-example">
+                <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Contoh Kode&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Judul&lt;/h1&gt;
+    &lt;p&gt;Paragraf&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </code>
+            </pre>
+        </div>
+
+        <div class="indentasi">
+            <h2>Indentasi</h2>
+            <p>
+                Indentasi adalah praktik menambahkan spasi di awal baris kode untuk 
+                membuat struktur penulisan kode lebih jelas dan mudah dibaca. 
+                Meskipun tidak mempengaruhi tampilan halaman web secara langsung, 
+                indentasi yang baik sangat penting untuk keterbacaan kode 
+                agar memudahkan developer untuk melihat hubungan antar elemen.
+            </p>
+        </div>
+
+        <div class="indentasi-code">
+            <p>berikut contoh indentasi yang benar dan salah:</p>
+            <pre class="code-example">
+                <code>
+//--------BENAR-------- (Rapih dan mudah dibaca)
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Contoh Kode&lt;/title&gt;
+&lt;/head&gt;
+&lt;/html&gt;
+
+//--------SALAH-------- (Tidak rapih dan sulit dibaca)
+    &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+                &lt;title&gt;Contoh Kode&lt;/title&gt;
+&lt;/head&gt;
+&lt;/html&gt;
+                </code>
+            </pre>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="coding-img">
+            <h2>Jangan tidur euy, nih meme biar melek!</h2>
+            <img src="./image/169599730_908588423265368_3234276149218458646_n.jpg" class="real-img">   
+        </div>
+    </div>
+
+    <div class="container-grid">
+        <div class="elemen-code">
+            <p>berikut contoh elemen dasar HTML :</p>
+            <pre class="code-example">
+                <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+    &lt;div&gt;
+        &lt;h1&gt;Skibidi Toilet&lt;/h1&gt;
+        &lt;h2&gt;The legend of brainrot&lt;/h2&gt;
+        &lt;p&gt;Kamu sigma banget &lt;br&gt;no cap!&lt;/p&gt;
+        &lt;a href="yt.com/sipalingsigma" target="_blank"&gt;
+            Tutorial Gyat Maxing
+        &lt;/a&gt;
+        &lt;img src="kucing_uiia.png" alt="Kucing Muter2"&gt;
+        &lt;ul&gt;
+            Hobi:
+            &lt;li&gt;Belajar HTML&lt;/li&gt;
+            &lt;li&gt;Belajar CSS&lt;/li&gt;
+            &lt;li&gt;Nonton Brainrot&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ol&gt;
+            Skill:
+            &lt;li&gt;Ngoding&lt;/li&gt;
+            &lt;li&gt;Bisa Masak Indomie&lt;/li&gt;
+            &lt;li&gt;Teknisi Sound Horeg&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </code>
+            </pre>
+        </div>
+
+        <div class="elemen">
+            <h2>Elemen HTML</h2>
+            <p>
+                Elemen HTML adalah blok penyusun dasar dalam bahasa markup HTML 
+                yang digunakan untuk membuat struktur dan konten halaman web. 
+                Elemen HTML memberi tahu browser bagaimana menampilkan dan menafsirkan 
+                bagian tertentu dari dokumen. Secara sederhana, 
+                elemen HTML terdiri dari tag pembuka, tag penutup, 
+                dan konten di antaranya <span class="mark">(meskipun beberapa elemen mungkin tidak memiliki tag penutup).</span>
+                <br>
+                Contoh elemen dasar HTML:
+                <ul>
+                    <li>div (untuk mengelompokkan elemen)</li>
+                    <li>h1 (untuk membuat judul)</li>
+                    <li>h2 (untuk membuat subjudul)</li>
+                    <li>p (untuk membuat paragraf)</li>
+                    <li>a (untuk memasukkan link)</li>
+                    <li>img (untuk menampilkan gambar)</li>
+                    <li>ul & li (untuk membuat daftar tidak berurutan)</li>
+                    <li>ol & li (untuk membuat daftar berurutan)</li>
+                </ul>
+            </p>
+        </div>
+
+        <div class="class-id-code">
+            <p>berikut contoh penggunaan Class dan Id :</p>
+            <pre class="code-example">
+                <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+    &lt;div class="halaman-utama" id="halaman-utama"&gt;
+        &lt;h1 class="judul-gyat" id="judul"&gt;Skibidi Toilet&lt;/h1&gt;
+        &lt;h2 class="subjudul"&gt;The legend of brainrot&lt;/h2&gt;
+        &lt;p class="paragraf"&gt;Kamu sigma banget &lt;br&gt;no cap!&lt;/p&gt;
+        &lt;img src="kucing_uiia.png" class="gambar" &gt;
+        &lt;ol class="sipaling-sigma" id="skill"&gt;
+            Skill:
+            &lt;li&gt;Ngoding&lt;/li&gt;
+            &lt;li&gt;Bisa Masak Indomie&lt;/li&gt;
+            &lt;li&gt;Teknisi Sound Horeg&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </code>
+            </pre>
+        </div>
+
+        <div class="class-id">
+            <h2>Class & Id</h2>
+            <p>
+                Dalam HTML, class dan id adalah atribut yang digunakan untuk memberikan nama pada elemen, 
+                namun memiliki perbedaan utama.
+                <br>
+                Berikut penjelasan lebih detail:
+                <ul>
+                    Id:
+                    <li>Bersifat unik: Setiap elemen HTML hanya boleh memiliki satu id yang unik di dalam satu halaman.</li>
+                    <li>Digunakan untuk menargetkan elemen spesifik: styling atau berinteraksi dengan elemen tunggal.</li>
+                    <li>Pemanggilan di CSS: <span class="mark">#nama-id</span>.</li>
+                </ul>
+                <br>
+                <ul>
+                    class:
+                    <li>Tidak unik: Satu elemen bisa memiliki beberapa class, dan satu class bisa digunakan di banyak elemen.</li>
+                    <li>
+                        Digunakan untuk mengelompokkan elemen: styling CSS
+                        atau atribut yang sama pada beberapa elemen dengan Class yang sama. 
+                    </li>
+                    <li>Pemanggilan di CSS: <span class="mark">.nama-class</span>.</li>
+                </ul>
+                
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="css">
+            <h2>CSS</h2>
+            <p>
+                CSS atau <span class="mark">Cascading Style Sheets</span> adalah bahasa yang digunakan untuk mengatur tampilan dan tata letak halaman web. 
+                Dengan CSS, kita dapat mengubah warna, ukuran font, margin, padding, dan banyak aspek visual lainnya dari elemen HTML. 
+                CSS memungkinkan kita untuk memisahkan konten HTML dari style tampilan, sehingga membuat pengembangan web lebih terstruktur dan mudah dikelola.
+            </p>
+            <img src="./image/562fa77c6107e4fb684cab7b52bb4460.jpg" class="real-img">
+        </div>
+
+        <div class="penulisan-css">
+            <h2>Penulisan CSS</h2>
+            <p>
+                Penulisan CSS (Cascading Style Sheets) dapat dilakukan dengan tiga cara utama: 
+                inline style, internal style, dan external style.
+                <br>
+                Berikut adalah penjelasan lebih detail:
+                <ul>
+                    Inline Style:
+                    <li>CSS ditulis langsung di dalam tag HTML menggunakan atribut <span class="mark">style</span>.</li>
+                    <li>Contoh:</li>
+                    <pre class="code-example">
+                        <code>
+&lt;html&gt;
+&lt;body&gt;
+    &lt;p style="color: blue;"&gt;Teks ini berwarna biru&lt;/p&gt;.
+&lt;/body&gt;
+&lt;/html&gt;
+                        </code>
+                    </pre>
+                    <li>
+                        Cara ini cocok untuk gaya yang spesifik untuk satu elemen saja, 
+                        tetapi kurang efisien untuk banyak elemen
+                    </li>
+
+                    <br>
+
+                    Internal Style:
+                    <li>
+                        CSS ditulis di dalam tag <span class="mark">&lt;style&gt;</span> 
+                        yang ditempatkan di bagian <span class="mark">&lt;head&gt;</span> 
+                        dari dokumen HTML.
+                    </li>
+                    <li>Contoh:</li>
+                    <pre class="code-example">
+                        <code>
+&lt;head&gt;
+    &lt;style&gt;
+        //memanggil elemen p
+        p { 
+            color: blue;
+        }
+
+        //memanggil class paragraf
+        .paragraf {
+            font-size: 16px;
+        }
+
+        //memanggil id judul
+        #judul {
+            font-weight: bold;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+                        </code>
+                    </pre>
+                    <li>
+                        Cara ini lebih baik daripada inline style untuk gaya yang diterapkan pada 
+                        beberapa elemen di halaman yang sama
+                    </li>
+
+                    <br>
+
+                    External Style:
+                    <li>Penulisan dilakukan pada file terpisah dengan ekstensi <span class="mark">.css</span>.</li>
+                    <li>File CSS ini kemudian dihubungkan ke file HTML menggunakan tag <span class="mark">&lt;link&gt;</span> di bagian <span class="mark">&lt;head&gt;</span>.</li>
+                    <li>Contoh:</li>
+                    &nbsp;&nbsp;&nbsp;konfigurasi file index.html
+                    <pre class="code-example">
+                        <code>
+//menghubungkan file CSS ke HTML
+&lt;head&gt;
+    &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+                        </code>
+                    </pre>
+                    &nbsp;&nbsp;&nbsp;konfigurasi file style.css
+                    <pre class="code-example">
+                        <code>
+//memanggil elemen p
+p { 
+    color: blue;
+}
+
+//memanggil class paragraf
+.paragraf {
+    font-size: 16px;
+}
+
+//memanggil id judul
+#judul {
+    font-weight: bold;
+}
+                        </code>
+                    </pre>
+                    <li>
+                        Cara ini adalah yang paling umum dan direkomendasikan untuk proyek web yang 
+                        lebih besar karena memungkinkan pemisahan kode HTML dan CSS, 
+                        serta memudahkan pengelolaan dan styling.
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="css-img">
+            <h2>Mata melekin ges, dikit lagi kelar!</h2>
+            <img src="./image/cicak oke.webp" class="real-img">   
+        </div>
+    </div>
+
+    <div class="container-grid">
+        <div class="properti-css">
+            <h2>Properti CSS</h2>
+            <p>
+                Properti CSS adalah aturan yang digunakan untuk menentukan tampilan elemen HTML 
+                pada halaman web. Properti ini memungkinkan Anda untuk mengatur berbagai 
+                aspek visual, seperti warna, ukuran, font, tata letak, dan banyak lagi.
+            </p>
+            <br>
+            <ul>
+                Beberapa contoh properti CSS yang umum digunakan meliputi:
+                <li><span class="mark">color:</span> Mengatur warna teks.</li>
+                <li><span class="mark">font-size:</span> Mengatur ukuran teks.</li>
+                <li><span class="mark">background-color:</span> Mengatur warna latar belakang.</li>
+                <li><span class="mark">margin:</span> Mengatur margin (ruang kosong di sekitar elemen).</li>
+                <li><span class="mark">padding:</span> Mengatur padding (ruang kosong di dalam elemen).</li>
+                <li><span class="mark">width:</span> Mengatur lebar elemen.</li>
+                <li><span class="mark">height:</span> Mengatur tinggi elemen.</li>
+                <li><span class="mark">position:</span> Mengatur posisi elemen.</li>
+                <li><span class="mark">border:</span> Mengatur garis tepi elemen.</li>
+            </ul>
+        </div>
+
+        <div class="properti-css-code">
+            <p>berikut contoh penggunaan properti CSS:</p>
+            <pre class="code-example">
+                <code>
+p {
+    /* Mengatur warna teks menjadi biru */
+    color: blue;
+
+    /* Mengatur ukuran teks menjadi 16 piksel */
+    font-size: 16px;
+
+    /* Mengatur warna latar belakang menjadi kuning */
+    background-color: yellow;
+
+    /* Mengatur margin elemen menjadi 10 piksel */
+    margin: 10px;
+
+    /* Mengatur padding elemen menjadi 5 piksel */
+    padding: 5px; 
+
+    /* Mengatur lebar elemen menjadi 300 piksel */
+    width: 300px; 
+
+    /* Mengatur tinggi elemen menjadi 100 piksel */
+    height: 100px; 
+
+    /* 
+    Mengatur posisi elemen 
+    relatif terhadap posisinya sendiri 
+    */
+    position: relative;
+
+    /* 
+    Mengatur garis tepi elemen dengan lebar 1 
+    piksel, solid, dan warna hitam 
+    */
+    border: 1px solid black; 
+}
+                </code>
+            </pre>
+        </div> 
+    </div>
+
+    <div class="container">
+        <div class="penutup">
+            <h2>Pesan dari Kucing Akmal</h2>
+            <p>
+                Terima kasih udah pantengin materi akmal selama 1 jam, semoga materi ini bermanfaat dan 
+                bisa jadi awal langkah awal kalian dalam berkarya di dunia digital.
+                Jangan cuma jadi penonton di internet, waktunya jadi kreator juga.
+                Ayo nyalakan website versi kalian sendiri! (Salam Sigma ges)
+            </p>
+            <img src="./image/oia-uia.gif" class="kucing-akmal">
+            <p>Ada Quiz Lord Akmal nih, dipencet ae gambarnya</p>
+            <a href="lol.html" target="_blank">
+                <img src="./image/a3j5qt.gif" class="real-img">
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>🔥 Menyala Websiteku 🔥</p>
+        <p>Dibuat dengan HTML + CSS</p>
+    </footer> 
+</body>
+</html>
